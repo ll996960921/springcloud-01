@@ -1,0 +1,25 @@
+server:
+  port: 9527
+  
+spring:
+  application:
+    name: servicespringcloud-zuul-gateway
+  
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka 
+  
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true 
+  
+  
+  #点击超链接后显示信息   
+info:
+  app.name: servicespringcloud
+  company.name: www.smilexl.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$ 
+  
+  

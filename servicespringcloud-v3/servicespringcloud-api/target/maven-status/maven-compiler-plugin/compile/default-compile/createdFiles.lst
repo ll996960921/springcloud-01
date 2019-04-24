@@ -1,0 +1,4 @@
+com\smilexl\springcloud\service\DeptClientServiceFallbackFactory$1.class
+com\smilexl\springcloud\entities\Dept.class
+com\smilexl\springcloud\service\DeptClientService.class
+com\smilexl\springcloud\service\DeptClientServiceFallbackFactory.class
